@@ -1,0 +1,45 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header__navigation-item {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.33rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 24%;
+}
+
+.header__navigation-item a {
+  display: inline-block;
+  color: #16a085;
+  text-decoration: none;
+  padding: 2.05rem 0;
+  width: 100%;
+}
+
+.header__navigation {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content__info-title{
+  width: 80%;
+  margin:50px auto; 
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.photo_content{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png);
+  background-size: cover;
+  width: 1000px;
+  height: 1000px;
+}

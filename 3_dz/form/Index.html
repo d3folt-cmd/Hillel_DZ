@@ -1,0 +1,26 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fio">ФИО:</label>
+        <input type="text" name="fio" id="fio" pattern="[A-Za-zА-Яа-яЁё]{3,25}">
+        <input type="submit" value="Submit">
+    </form>
+    <form>
+        <label for="mail">Эмел:</label>
+        <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-{3,}]+@[a-z0-9.-{3,}]+\.[a-z]{2,}$">
+        <input type="submit" value="Submit">
+    </form>
+    <form>
+        <label for="pass">Пароль:</label>
+        <input type="password" name="pass" id="pass" pattern="(?=.*\d)(?=.*[A-Z]).{8,}">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/signup" method="POST">
+    <div>
+       <label for="first_name"><b>Name</b></label>
+       <input id="first_name" type="text">
+    </div>
+
+    <div>
+       <label for="email"><b>Email</b></label>
+       <input id="email" type="email">
+    </div>
+
+    <div>
+       <label for="pass"><b>Password</b></label>
+       <input id="pass" type="password">
+    </div>
+
+    <div>
+       <label type="radio"><b>Gende</b>r</label>
+       <label>
+        <input id="radio" name="gender">Male
+        </label>
+        <label>
+        <input id="radio" name="gender">Female
+        </label>
+    </div>
+
+    <div>
+        <label for="Birthdate"><b>Birthdate</b></label>
+        <input id="Birthdate" type="text" min="1979-12-31" max="2021-06-08">
+    </div>
+
+    <label><b>Contacts</b></label>
+    <select name="contact">
+         <option>Skype</option>
+         <option>Telegram</option>
+         <option>Viber</option>
+         <option>Discord</option>
+    </select>
+    <input type="text">
+    <button type="button">Delete</button>
+
+    <div>
+    <select name="contact">
+         <option>Other</option>
+         <option>Telegram</option>
+         <option>Viber</option>
+         <option>Discord</option>
+    </select>
+    <input type="text">
+    <input type="text">
+    <button type="button">Delete</button>
+    </div>
+
+    <div>
+     <input type="button" value="Save"> or <input type="button" value="Add new">
+    </div>
+
+    <div>
+    <label for="myfile"><b>Photo</b></label>
+    <input type="file" id="myfile" name="myfile">
+    </div>
+
+    <div>
+    <label><b>Hobbies</b></label>
+    <select name="contact" size="3">
+        <option>Music</option>
+        <option>Cooking</option>
+        <option>Movies</option>
+        <option>Sport</option>
+    </select>
+    </div>
+
+    <div>
+    <b>Some words</b>
+    <textarea name="Some words" cols="30" rows="5"></textarea>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+html {
+    height: 2000px;
+    width: 2000px;
+    font-size: 18px;
+    background-color: black;
+}
+  
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    height: 2000px;
+    width: 2000px;
+}
+
+.a-top {
+    width: 400px;
+    height: 200px;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.letter-A {
+    position: sticky;
+}
+
+.c-center {
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    left: 10%;
+    top: 20%;
+    position: fixed;
+    z-index: 9;
+}
+
+.c-bot {
+    width: 400px;
+    height: 200px;
+    background-color: purple;
+    position: absolute;
+}
+
+.b-right {
+    width: 200px;
+    height: 400px;
+    background-color: orange;
+    position: absolute;
+    left: 410px;
+    top: 8px;
+}

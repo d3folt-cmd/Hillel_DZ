@@ -1,0 +1,64 @@
+html {
+    height: 1000px;
+    width: 1000px;
+}
+  
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    background-color: black;
+}
+
+#wrapper {
+    position: relative;
+    margin: 5% 10% 5% 10%;
+    border: solid whitesmoke;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.main_div {
+    display: flex;
+}
+
+#header {
+    width: 100%;
+    background-color: rgb(42, 42, 155);
+    height: 150px;
+    vertical-align: baseline;
+    display: inline-block;
+    position: relative;    
+}
+
+#content {
+    background-color: rgb(169, 223, 63);
+    width: 60%;
+    height: 300px;
+    justify-self: center;
+}
+
+#leftsidebar {
+    background-color: rgb(225, 108, 157);
+    width: 20%;
+    height: 300px;
+    border: solid whitesmoke;
+}
+
+#rightsidebar {
+    background-color: rgb(225, 108, 157);
+    width: 20%;
+    height: 300px;
+    border: solid whitesmoke;
+    margin-left: 11px;
+}
+
+#footer {
+    height: 150px;
+    width: 100%;
+    background-color: #84adf9;
+    display: inline-block;
+}

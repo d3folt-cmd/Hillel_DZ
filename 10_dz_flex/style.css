@@ -1,0 +1,70 @@
+html {
+    font-size: 13px;
+}
+  
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(129, 8, 123);                                                                                                                                                                       
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+span {
+    padding-left: 30%;
+}
+
+.main {
+    margin-left: 20px;
+    width: 50%;
+    min-height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.main > div {
+    text-align: center;
+    background-color: rgb(49, 108, 175);
+    width: 50%;                                                                                                                                  
+    height: 200px;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    margin: -2px;
+}
+
+main > p {
+    text-align: center;
+}
+
+.sidebar {
+    background-color: rgb(129, 8, 123);                                                                                                                                    
+    height: 200px;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+    padding-left: 5px;
+    width: 141px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+   
+    header {flex-direction: column;
+            width: 100%;}
+
+    .sidebar {margin-left: 17.5px;}
+
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 1023px) {
+    
+    .main {
+        flex-direction: column;
+    }
+    
+}
